@@ -13,7 +13,7 @@ class ViewHolder(view: View): RecyclerView.ViewHolder(view) {
     var apellido =view.findViewById<TextView>(R.id.textViewApellido)
     var photo =view.findViewById<ImageView>(R.id.imageView)
 
-    fun bind(persona:Persona){
+    /*fun bind(persona:Persona){
         nombre.text = persona.Nombre
         apellido.text=persona.Apellido
         photo.loadUrl(persona.Photo)
@@ -21,5 +21,5 @@ class ViewHolder(view: View): RecyclerView.ViewHolder(view) {
 
     fun ImageView.loadUrl(url:String){
         Picasso.get().load(url).into(this)
-    }
+    }*/
 }
